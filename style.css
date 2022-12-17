@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #E5F4C9;
+    }
+    body{
+    background: scroll;
+    background: #3d7eaa;
+    background: linear-gradient(90deg, #5C258D,
+    #4389A2);/*background-image: url('/images/background.png');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .header__container{
+    margin: auto;
+    Page | 11
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    background: rgba(0,0,0, 0.72);
+    }
+    .header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .header__container a{
+    color: beige;
+    text-decoration: none;
+    }
+    #header__logo{
+    margin-left: 20px;
+    cursor: pointer;
+    font-size:xx-large;
+    font-weight: 900;
+    }
+    .logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida
+    Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .header__container ul{
+    list-style: none;
+    }
+    .header__container li{
+    float: left;
+    font-size:larger;
+    font-weight: 500;
+    padding: 10px 20px;
+    Page | 12
+    }
+    .about__container img{
+    margin-right: 40px;
+    width: 300px;
+    height: fit-content
+    }
+    .about__container{
+    position: relative;
+    margin: 40px 20px;
+    display: flex;
+    padding: 20px;
+    justify-content:space-evenly;
+    align-items: inherit;
+    }
+    .about__data{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    .about__data p{
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    font-size: large;
+    width: 90%;
+    }
+    #about{
+    font-size: xx-large;
+    letter-spacing: 10px;
+    }
+    .profile{
+    margin-top: 25px;
+    border-radius: 50%;
+    background-position: center;
+    border: 4px solid rgb(15, 4, 54);
+    }
+    Page | 13
+    .achievements__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    #achievements{
+    font-size: xx-large;
+    letter-spacing: 10px;
+    }
+    table {
+    padding: 20px;
+    width: 80%;
+    margin: 0px;
+    letter-spacing: 0.6px;
+    }
+    th{
+    font-size: x-large;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E5F4C9;
+    background-color: rgba(0,0,0, 0.62)
+    }
+    th, td{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    }
+    .hobbies__container{
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    Page | 14
+    #hobbies{
+    font-size: xx-large;
+    letter-spacing: 10px;
+    }
+    .hobbies__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
+    }
+    .hobbies__item img{
+    width: 250px;
+    height: 250px;
+    margin: 10px 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    }
+    .hobby_item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    width: min-content;
+    }
+    .hobby_item p strong{
+    font-size: large;
+    }
+    .strength__container{
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    Page | 15
+    }
+    #strengths{
+    font-size: xx-large;
+    letter-spacing: 10px;
+    }
+    .strength__items{
+    margin: 10px;
+    }
+    .strength_item{
+    padding: 5px;
+    font-size: large;
+    letter-spacing: 0.5px;
+    }
+    .contact__container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.72);
+    }
+    .contact__container div{
+    font-size:x-large;
+    color: white;
+    }
+    .contact__container ul{
+    list-style: none;
+    }
+    .contact__container li{
+    float: left;
+    }
+    .contact__container a{
+    text-decoration: none;
+    }
+    Page | 16
+    .fa{
+    color: #E5F4C9;
+    }
+    .contact__link{
+    margin: 10px;
+    padding: 0px;
+    font-size: xx-large;
+    }
+    
